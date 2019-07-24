@@ -1,0 +1,8 @@
+.mat-card-title{
+  display:flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color:yellow;
+  margin:0;
+  padding:0;
+}
