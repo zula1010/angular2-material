@@ -1,8 +1,17 @@
-.mat-card-title{
+/* .mat-card{
+ border-radius: 20px 20px 0 0;
+ background-color: yellow;
+position:fixed;
+z-index: 2;
+top:0;
+
+} */
+/* .mat-card-content{
+  background-color:blue;
+} */
+#menu{
   display:flex;
-  justify-content: space-between;
-  position: fixed;
-  background-color:yellow;
+  justify-content: space-around;
   margin:0;
   padding:0;
 }

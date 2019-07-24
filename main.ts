@@ -42,8 +42,10 @@ import {
 import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {Job} from './app/job'
-import {Menu} from './app/component/menu/menu'
+import {Job} from './app/job';
+import {Menu} from './app/component/menu/menu';
+import {Description} from './app/component/description/description';
+import {About} from './app/component/about/about';
 
 @NgModule({
   exports: [
@@ -96,7 +98,7 @@ export class DemoMaterialModule {}
     ReactiveFormsModule,
   ],
   entryComponents: [Job],
-  declarations: [Job, Menu],
+  declarations: [Job, Menu, Description, About],
   bootstrap: [Job],
   providers: []
 })
