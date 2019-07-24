@@ -1,0 +1,15 @@
+.mat-menu-item {
+  height: inherit;
+  width: inherit;
+  background: lightgoldenrodyellow
+}
+
+
+.example-form {
+  height: 200px;
+  /* width: 800px; */
+}
+
+popover-example {
+  margin: 10px
+}
