@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding:0;
 }
+
 .mat-card{
  background-color: white;
  padding:0;
@@ -15,9 +16,14 @@ background-color:yellow;
   margin:auto;
   padding:0;
 }
-.mat-card-sm-image {
-  
-}
+.apply{
+  border-radius: 100%;
+  background-color:green;
+  color:white;
+  position :sticky;
+  bottom :0;
+  left:0;
+  }
 @font-face {
   font-family: 'Material Icons';
   /* font-style: normal; */
