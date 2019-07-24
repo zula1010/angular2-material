@@ -1,24 +1,14 @@
-.mat-menu-item {
-  height: inherit;
-  width: inherit;
-  background: lightgoldenrodyellow
-}
-
-
-.example-form {
-  height: 200px;
-  /* width: 800px; */
-}
-
 .mat-card-title{
-  width:100%;
+
 
 }
 .mat-card{
-  width:100%;
+  border-radius: 20px 20px 0 0;
   margin : auto;
-  margin-top:20px;
+  margin-top:30px;
 }
 .mat-card-content{
-  width:100%
+}
+.left{
+  float : left;
 }
